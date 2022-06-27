@@ -17,17 +17,17 @@
   <link name="world"/>
 
   <!-- Add Floor -->
-  <xacro:property name="length" value="9.0"/>
-  <xacro:property name="width" value="6.0"/>
+  <xacro:property name="length" value="1.1176"/>
+  <xacro:property name="width" value="1.4732"/>
   <link name="floor">
     <visual>
-      <origin xyz="0 -${width/10} 0.001" rpy="0 0 0"/>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
       <geometry>
         <box size="${length} ${width} 0.001"/>
       </geometry>
     </visual>
     <collision>
-      <origin xyz="0 -${width/10} 0.001" rpy="0 0 0"/>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
       <geometry>
         <box size="${length} ${width} 0.001"/>
       </geometry>
@@ -39,36 +39,34 @@
     <child link="floor"/>
   </joint>
 
-  <!-- Add table -->
-  <link name="table">
+  <!-- Add ceiling -->
+  <xacro:property name="length" value="1.1176"/>
+  <xacro:property name="width" value="1.4732"/>
+  <link name="ceiling">
     <visual>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://snp_support/meshes/visual/steel_table.ply"/>
+        <box size="${length} ${width} 0.001"/>
       </geometry>
-      <material name="dark_gray"/>
     </visual>
     <collision>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://snp_support/meshes/collision/steel_table.ply"/>
-      </geometry>
-    </collision>
-    <collision>
-      <origin xyz="0 0 0.726" rpy="0 0 0"/>
-      <geometry>
-        <box size="1.9 0.95 0.05"/>
+        <box size="${length} ${width} 0.001"/>
       </geometry>
     </collision>
   </link>
 
-  <joint name="floor_to_table" type="fixed">
+  <joint name="floor_to_ceiling" type="fixed">
     <parent link="floor"/>
-    <child link="table"/>
+    <child link="ceiling"/>
+    <origin xyz="0 0 1.1049" rpy="0 0 0"/>
   </joint>
 
-  <joint name="table_to_base" type="fixed">
-    <parent link="table"/>
+  <joint name="ceiling_to_base" type="fixed">
+    <parent link="ceiling"/>
     <child link="base_link"/>
-    <origin xyz="-0.61 0 0.723" rpy="0 0 0"/>
+    <origin xyz="-0.37465 -0.1524 0" rpy="0 -3.14 -3.14"/>
   </joint>
 
   <!-- Create a frame representing the robot tool flange (behind the teach tool and nominal tool0 frame) for IKFast -->
