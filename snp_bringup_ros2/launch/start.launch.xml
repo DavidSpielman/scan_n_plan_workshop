@@ -2,7 +2,7 @@
 <launch>
   <arg name="sim_vision" default="True"/>
   <arg name="sim_robot" default="True"/>
-  <arg name="mesh_file" default="$(find-pkg-share snp_support)/meshes/simple_phone_m.ply"/>
+  <arg name="mesh_file" default="$(find-pkg-share snp_support)/meshes/simple_phone_m_z_translation.ply"/>
   <arg name="scan_trajectory_file" default="$(find-pkg-share snp_support)/config/scan_traj.yaml"/>
   <arg name="verbose" default="False"/>
   <arg name="touch_links" default="[table, base_link, floor]"/>
@@ -10,7 +10,7 @@
   <!-- URDF, Rviz -->
   <include file="$(find-pkg-share snp_support)/launch/test.launch.xml">
     <arg name="rviz_config" value="$(find-pkg-share snp_bringup_ros2)/config/app.rviz"/>
-    <arg name="use_gui" value="$(var sim_robot)"/>
+    <arg name="use_gui" value="$(var sim_robot)"/>0
   </include>
 
   <!-- Launch Calibration Node and Mutable Transform Publisher Node  -->
@@ -64,6 +64,7 @@
   <node pkg="snp_application" exec="roscon_app">
     <param name="mesh_file" value="/tmp/results_mesh.ply"/>
     <param name="motion_group" value="manipulator"/>
+<!--    <param name="reference_frame" value="base_link"/>-->
     <param name="reference_frame" value="base_link"/>
     <param name="tcp_frame" value="sand_tcp"/>
     <param name="camera_frame" value="camera_color_optical_frame"/>
