@@ -80,7 +80,7 @@
   </joint>
 
   <!-- Add End Effector Components -->
-  <link name="ee">
+  <!--<link name="ee">
     <visual>
       <geometry>
         <mesh filename="package://snp_support/meshes/visual/end_effector.stl"/>
@@ -131,7 +131,7 @@
   <joint name="tool0_to_ee" type="fixed">
     <parent link="tool0"/>
     <child link="ee"/>
-  </joint>
+  </joint>-->
 
   <xacro:property name="camera_cal" value="${load_yaml('$(find snp_support)/config/camera_calibration.yaml')}" />
 
