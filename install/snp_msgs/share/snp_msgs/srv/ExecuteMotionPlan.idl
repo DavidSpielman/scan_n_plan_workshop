@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from snp_msgs/srv/ExecuteMotionPlan.srv
+// generated code does not contain a copyright notice
+
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module snp_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Request")
+    struct ExecuteMotionPlan_Request {
+      @verbatim (language="comment", text=
+        " Motion Plan - the trajectory we wish the robot to follow")
+      trajectory_msgs::msg::JointTrajectory motion_plan;
+
+      @verbatim (language="comment", text=
+        " Whether to activate the tool")
+      boolean use_tool;
+    };
+    @verbatim (language="comment", text=
+      " Response")
+    struct ExecuteMotionPlan_Response {
+      @verbatim (language="comment", text=
+        " Success and error information")
+      boolean success;
+
+      string message;
+    };
+  };
+};

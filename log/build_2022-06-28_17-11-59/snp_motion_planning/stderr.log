@@ -1,0 +1,38 @@
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+Call Stack (most recent call first):
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:29 (find_dependency)
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment/lib/cmake/tesseract_environment/tesseract_environment-config.cmake:29 (find_dependency)
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization/lib/cmake/tesseract_visualization/tesseract_visualization-config.cmake:26 (find_dependency)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/tesseract_rosutilsConfig.cmake:41 (include)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoringConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_plugin.cpp:25[m[K:
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_solver.hpp:32:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[K__dummy[m[K’ [[01;35m[K-Wpedantic[m[K]
+   31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[[01;35m[K(int)x][m[K
+      |                                                     [01;35m[K~~~~~~~[m[K
+   32 | [01;35m[KIKFAST_COMPILE_ASSERT(IKFAST_VERSION == 0x1000004a[m[K);
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_solver.hpp:31:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KIKFAST_COMPILE_ASSERT[m[K’
+   31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[(int)[01;36m[Kx[m[K]
+      |                                                          [01;36m[K^[m[K
+In file included from [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planning_server.cpp:1[m[K:
+/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planner_profiles.hpp: In instantiation of ‘[01m[Ktypename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr createDescartesPlanProfile() [with FloatType = float; typename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr = std::shared_ptr<tesseract_planning::DescartesDefaultPlanProfile<float> >][m[K’:
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planning_server.cpp:138:115:[m[K   required from here
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planner_profiles.hpp:23:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprob[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   23 |   profile->edge_evaluator = []([01;35m[Kconst tesseract_planning::DescartesProblem<FloatType>& prob[m[K) ->
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

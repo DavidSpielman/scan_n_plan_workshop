@@ -1,0 +1,433 @@
+[0.032s] Invoking command in '/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning': AMENT_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_bringup_ros2:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_support:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_scanning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_planning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_execution:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_application:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/vhacd:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_ros_examples:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rviz:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_planning_server:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_process_managers:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_motion_planners:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sco:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_utils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_time_parameterization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_collision:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_state_solver:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_srdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_scene_graph:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_geometry:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_command_language:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_common:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ros_industrial_cmake_boilerplate:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp_eigen:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/opw_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/noether_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_hc10_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/gl_depth_sim:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_lrmate200ic_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/descartes_light:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning -DCMAKE_INSTALL_PREFIX=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning
+[0.165s] -- The C compiler identification is GNU 9.4.0
+[0.247s] -- The CXX compiler identification is GNU 9.4.0
+[0.255s] -- Check for working C compiler: /usr/bin/cc
+[0.475s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.476s] -- Detecting C compiler ABI info
+[0.719s] -- Detecting C compiler ABI info - done
+[0.731s] -- Detecting C compile features
+[0.731s] -- Detecting C compile features - done
+[0.734s] -- Check for working CXX compiler: /usr/bin/c++
+[0.926s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.927s] -- Detecting CXX compiler ABI info
+[1.119s] -- Detecting CXX compiler ABI info - done
+[1.132s] -- Detecting CXX compile features
+[1.135s] -- Detecting CXX compile features - done
+[1.146s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.199s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.200s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.683s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.910s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.966s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.327s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.392s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.789s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.795s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.797s] -- Looking for pthread.h
+[3.025s] -- Looking for pthread.h - found
+[3.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.269s] -- Looking for pthread_create in pthreads
+[3.513s] -- Looking for pthread_create in pthreads - not found
+[3.513s] -- Looking for pthread_create in pthread
+[3.757s] -- Looking for pthread_create in pthread - found
+[3.757s] -- Found Threads: TRUE  
+[4.028s] -- Found snp_msgs: 0.0.0 (/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/share/snp_msgs/cmake)
+[4.381s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.394s] -- Found tesseract_monitoring: 1.0.0 (/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake)
+[7.618s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.620s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.225s] -- Checking for module 'eigen3'
+[9.323s] --   Found eigen3, version 3.3.7
+[9.946s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.947s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[10.126s] -- Checking for module 'flann'
+[10.338s] --   Found flann, version 1.9.1
+[10.601s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[10.673s] -- The imported target "vtkParseOGLExt" references the file
+[10.673s]    "/usr/bin/vtkParseOGLExt-7.1"
+[10.673s] but this file does not exist.  Possible reasons include:
+[10.673s] * The file was deleted, renamed, or moved to another location.
+[10.673s] * An install or uninstall procedure did not complete successfully.
+[10.673s] * The installation package was faulty and contained
+[10.674s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.674s] but not all the files it references.
+[10.674s] 
+[10.674s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[10.674s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[10.674s] but this file does not exist.  Possible reasons include:
+[10.674s] * The file was deleted, renamed, or moved to another location.
+[10.674s] * An install or uninstall procedure did not complete successfully.
+[10.675s] * The installation package was faulty and contained
+[10.675s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.675s] but not all the files it references.
+[10.675s] 
+[10.675s] -- The imported target "vtk" references the file
+[10.675s]    "/usr/bin/vtk"
+[10.675s] but this file does not exist.  Possible reasons include:
+[10.675s] * The file was deleted, renamed, or moved to another location.
+[10.675s] * An install or uninstall procedure did not complete successfully.
+[10.675s] * The installation package was faulty and contained
+[10.676s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.676s] but not all the files it references.
+[10.676s] 
+[10.676s] -- The imported target "pvtk" references the file
+[10.676s]    "/usr/bin/pvtk"
+[10.676s] but this file does not exist.  Possible reasons include:
+[10.676s] * The file was deleted, renamed, or moved to another location.
+[10.676s] * An install or uninstall procedure did not complete successfully.
+[10.677s] * The installation package was faulty and contained
+[10.677s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[10.677s] but not all the files it references.
+[10.677s] 
+[10.707s] -- Checking for module 'libusb-1.0'
+[10.849s] --   Found libusb-1.0, version 1.0.23
+[11.125s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.474s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[11.836s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[11.862s] -- Found libusb-1.0: /usr/include  
+[11.885s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[11.907s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[11.999s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[11.999s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[12.021s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[12.043s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.046s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.048s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.050s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.052s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[12.054s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[12.055s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[12.056s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[12.058s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[12.060s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[12.062s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[12.064s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[12.067s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[12.069s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[12.072s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[12.074s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[12.076s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[12.079s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[12.081s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[12.083s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[12.085s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[12.086s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[12.089s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[12.091s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.894s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[13.894s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[13.894s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[13.894s]   command to set the policy and suppress this warning.
+[13.894s] 
+[13.894s]   CMake variable PCL_ROOT is set to:
+[13.894s] 
+[13.894s]     /usr
+[13.894s] 
+[13.895s]   For compatibility, CMake is ignoring the variable.
+[13.895s] Call Stack (most recent call first):
+[13.895s]   /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:29 (find_dependency)
+[13.895s]   /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[13.895s]   /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment/lib/cmake/tesseract_environment/tesseract_environment-config.cmake:29 (find_dependency)
+[13.895s]   /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[13.895s]   /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization/lib/cmake/tesseract_visualization/tesseract_visualization-config.cmake:26 (find_dependency)
+[13.895s]   /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.895s]   /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/tesseract_rosutilsConfig.cmake:41 (include)
+[13.895s]   /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[13.896s]   /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoringConfig.cmake:41 (include)
+[13.896s]   CMakeLists.txt:20 (find_package)
+[13.896s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[13.896s] 
+[23.473s] -- Taskflow found. Headers: /usr/include
+[33.758s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[33.759s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[33.759s] -- Found OpenMP: TRUE (found version "4.5")  
+[33.765s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[33.794s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[33.801s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[33.810s] -- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+[33.819s] -- Taskflow found. Headers: /usr/include
+[33.830s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[33.865s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[33.906s] -- Found assimp: /usr/include  
+[33.911s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[33.912s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[33.919s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[33.960s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.011s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[34.067s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.162s] -- Found Boost: /usr/include (found version "1.71.0")  
+[34.200s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.209s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[34.253s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.303s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[34.346s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.397s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[34.438s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.555s] -- Found Boost: /usr/include (found version "1.71.0")  
+[34.608s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.652s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[34.693s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.737s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[34.772s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[34.820s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[34.821s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[34.960s] -- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+[34.975s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[35.018s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.073s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[35.074s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[35.081s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[35.128s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.184s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[35.228s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.311s] -- Found Boost: /usr/include (found version "1.71.0")  
+[35.349s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.358s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[35.402s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.455s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[35.501s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.557s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[35.603s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.754s] -- Found Boost: /usr/include (found version "1.71.0")  
+[35.813s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.866s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[35.914s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[35.962s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[36.001s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.055s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[36.056s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[36.185s] -- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+[36.194s] -- Found Boost: /usr/include (found version "1.71.0")  
+[36.198s] -- Found ompl: /usr/include;/usr/include/eigen3  
+[36.204s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[36.204s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[36.211s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[36.218s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[36.255s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.304s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[36.304s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[36.313s] -- Found Boost: /usr/include (found version "1.71.0")  
+[36.326s] -- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+[36.331s] -- Found Boost: /usr/include (found version "1.71.0")  
+[36.340s] -- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+[36.351s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[36.388s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.450s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[36.452s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[36.464s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[36.527s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.586s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[36.631s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.714s] -- Found Boost: /usr/include (found version "1.71.0")  
+[36.749s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.757s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[36.800s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.851s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[36.894s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[36.947s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[36.990s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[37.118s] -- Found Boost: /usr/include (found version "1.71.0")  
+[37.179s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[37.233s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[37.295s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[37.362s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[37.411s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[37.474s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[37.475s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[37.531s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[37.574s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[37.628s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[37.628s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[37.679s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[37.719s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[37.772s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[37.772s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[37.779s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[37.826s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[37.884s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[37.928s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.007s] -- Found Boost: /usr/include (found version "1.71.0")  
+[38.046s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.057s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[38.111s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.171s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[38.217s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.273s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[38.317s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.437s] -- Found Boost: /usr/include (found version "1.71.0")  
+[38.493s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.538s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[38.582s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.627s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[38.664s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.712s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[38.713s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[38.755s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[38.798s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[38.860s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[38.915s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.018s] -- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+[39.024s] -- Found Boost: /usr/include (found version "1.71.0")  
+[39.042s] -- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+[39.056s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[39.098s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.153s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[39.154s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[39.162s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[39.211s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.270s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[39.318s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.400s] -- Found Boost: /usr/include (found version "1.71.0")  
+[39.436s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.444s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[39.488s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.540s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[39.585s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.649s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[39.711s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.845s] -- Found Boost: /usr/include (found version "1.71.0")  
+[39.902s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[39.948s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[39.994s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.043s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[40.085s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.139s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[40.139s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[40.182s] -- Found Boost: /usr/include (found version "1.71.0")  
+[40.207s] -- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+[40.220s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[40.260s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.313s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[40.314s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[40.322s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[40.371s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.433s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[40.493s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.594s] -- Found Boost: /usr/include (found version "1.71.0")  
+[40.633s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.642s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[40.689s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.744s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[40.788s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[40.843s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[40.887s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.012s] -- Found Boost: /usr/include (found version "1.71.0")  
+[41.069s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.116s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[41.161s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.208s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[41.253s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.318s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[41.318s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[41.363s] -- Found Boost: /usr/include (found version "1.71.0")  
+[41.373s] -- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+[41.408s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.422s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[41.460s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.510s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[41.511s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[41.558s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[41.596s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.645s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[41.646s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[41.654s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[41.699s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.754s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[41.798s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.879s] -- Found Boost: /usr/include (found version "1.71.0")  
+[41.915s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[41.924s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[41.969s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[42.025s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[42.080s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[42.148s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[42.199s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[42.332s] -- Found Boost: /usr/include (found version "1.71.0")  
+[42.389s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[42.436s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[42.483s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[42.531s] -- Found Boost: /usr/include (found version "1.71.0") found components: system 
+[42.569s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[42.621s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[42.622s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[42.666s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[42.711s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[42.769s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[42.814s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[43.005s] -- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+[43.022s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[43.073s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[43.134s] -- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+[43.184s] -- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+[43.315s] -- Looking for sgemm_
+[43.497s] -- Looking for sgemm_ - not found
+[43.537s] -- Looking for sgemm_
+[43.743s] -- Looking for sgemm_ - found
+[43.744s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[43.750s] -- Looking for cheev_
+[43.939s] -- Looking for cheev_ - not found
+[43.950s] -- Looking for cheev_
+[44.148s] -- Looking for cheev_ - found
+[44.148s] -- A library with LAPACK API found.
+[44.166s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[44.253s] -- Configuring done
+[44.319s] -- Generating done
+[44.327s] -- Build files have been written to: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning
+[44.393s] Invoked command in '/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning' returned '0': AMENT_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_bringup_ros2:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_support:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_scanning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_planning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_execution:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_application:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/vhacd:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_ros_examples:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rviz:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_planning_server:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_process_managers:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_motion_planners:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sco:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_utils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_time_parameterization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_collision:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_state_solver:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_srdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_scene_graph:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_geometry:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_command_language:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_common:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ros_industrial_cmake_boilerplate:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp_eigen:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/opw_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/noether_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_hc10_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/gl_depth_sim:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_lrmate200ic_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/descartes_light:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning -DCMAKE_INSTALL_PREFIX=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning
+[44.396s] Invoking command in '/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning': AMENT_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_bringup_ros2:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_support:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_scanning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_planning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_execution:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_application:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/vhacd:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_ros_examples:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rviz:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_planning_server:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_process_managers:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_motion_planners:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sco:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_utils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_time_parameterization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_collision:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_state_solver:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_srdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_scene_graph:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_geometry:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_command_language:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_common:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ros_industrial_cmake_boilerplate:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp_eigen:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/opw_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/noether_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_hc10_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/gl_depth_sim:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_lrmate200ic_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/descartes_light:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning -- -j8 -l8
+[44.545s] [35m[1mScanning dependencies of target snp_motion_planning_plugins[0m
+[44.545s] [35m[1mScanning dependencies of target snp_motion_planning_node[0m
+[44.625s] [ 25%] [32mBuilding CXX object CMakeFiles/snp_motion_planning_plugins.dir/src/motoman_hc10_ikfast_plugin.cpp.o[0m
+[44.757s] [ 50%] [32mBuilding CXX object CMakeFiles/snp_motion_planning_node.dir/src/planning_server.cpp.o[0m
+[48.241s] In file included from [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_plugin.cpp:25[m[K:
+[48.241s] [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_solver.hpp:32:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[K__dummy[m[K’ [[01;35m[K-Wpedantic[m[K]
+[48.241s]    31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[[01;35m[K(int)x][m[K
+[48.241s]       |                                                     [01;35m[K~~~~~~~[m[K
+[48.241s]    32 | [01;35m[KIKFAST_COMPILE_ASSERT(IKFAST_VERSION == 0x1000004a[m[K);
+[48.241s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.241s] [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_solver.hpp:31:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KIKFAST_COMPILE_ASSERT[m[K’
+[48.241s]    31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[(int)[01;36m[Kx[m[K]
+[48.241s]       |                                                          [01;36m[K^[m[K
+[52.782s] In file included from [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planning_server.cpp:1[m[K:
+[52.782s] /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planner_profiles.hpp: In instantiation of ‘[01m[Ktypename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr createDescartesPlanProfile() [with FloatType = float; typename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr = std::shared_ptr<tesseract_planning::DescartesDefaultPlanProfile<float> >][m[K’:
+[52.782s] [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planning_server.cpp:138:115:[m[K   required from here
+[52.782s] [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planner_profiles.hpp:23:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprob[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[52.782s]    23 |   profile->edge_evaluator = []([01;35m[Kconst tesseract_planning::DescartesProblem<FloatType>& prob[m[K) ->
+[52.782s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[56.218s] [ 75%] [32m[1mLinking CXX shared library libsnp_motion_planning_plugins.so[0m
+[56.451s] [ 75%] Built target snp_motion_planning_plugins
+[60.820s] [100%] [32m[1mLinking CXX executable snp_motion_planning_node[0m
+[64.000s] [100%] Built target snp_motion_planning_node
+[64.028s] Invoked command in '/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning' returned '0': AMENT_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_bringup_ros2:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_support:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_scanning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_planning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_execution:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_application:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/vhacd:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_ros_examples:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rviz:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_planning_server:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_process_managers:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_motion_planners:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sco:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_utils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_time_parameterization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_collision:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_state_solver:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_srdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_scene_graph:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_geometry:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_command_language:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_common:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ros_industrial_cmake_boilerplate:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp_eigen:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/opw_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/noether_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_hc10_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/gl_depth_sim:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_lrmate200ic_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/descartes_light:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning -- -j8 -l8
+[64.171s] Invoking command in '/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning': AMENT_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_bringup_ros2:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_support:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_scanning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_planning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_execution:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_application:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/vhacd:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_ros_examples:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rviz:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_planning_server:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_process_managers:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_motion_planners:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sco:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_utils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_time_parameterization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_collision:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_state_solver:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_srdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_scene_graph:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_geometry:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_command_language:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_common:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ros_industrial_cmake_boilerplate:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp_eigen:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/opw_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/noether_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_hc10_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/gl_depth_sim:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_lrmate200ic_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/descartes_light:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning
+[64.198s] -- Install configuration: ""
+[64.199s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/snp_motion_planning/snp_motion_planning_node
+[64.206s] -- Set runtime path of "/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/snp_motion_planning/snp_motion_planning_node" to ""
+[64.206s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/libsnp_motion_planning_plugins.so
+[64.209s] -- Set runtime path of "/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/libsnp_motion_planning_plugins.so" to ""
+[64.209s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/library_path.sh
+[64.209s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/library_path.dsv
+[64.209s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/ament_index/resource_index/package_run_dependencies/snp_motion_planning
+[64.209s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/ament_index/resource_index/parent_prefix_path/snp_motion_planning
+[64.209s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/ament_prefix_path.sh
+[64.209s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/ament_prefix_path.dsv
+[64.210s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/path.sh
+[64.210s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/path.dsv
+[64.210s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.bash
+[64.210s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.sh
+[64.210s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.zsh
+[64.210s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.dsv
+[64.210s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/package.dsv
+[64.211s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/ament_index/resource_index/packages/snp_motion_planning
+[64.211s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport.cmake
+[64.211s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport-noconfig.cmake
+[64.211s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.211s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/ament_cmake_export_targets-extras.cmake
+[64.211s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planningConfig.cmake
+[64.212s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planningConfig-version.cmake
+[64.212s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/package.xml
+[64.212s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning//launch
+[64.212s] -- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning//launch/planning_server.launch.xml
+[64.215s] Invoked command in '/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning' returned '0': AMENT_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_bringup_ros2:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_support:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_scanning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_planning:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_motion_execution:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_application:/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/install/snp_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/vhacd:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_ros_examples:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rviz:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_planning_server:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_process_managers:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_motion_planners:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_sco:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/trajopt_utils:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_time_parameterization:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_collision:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_state_solver:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_srdf:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_scene_graph:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_geometry:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_command_language:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_common:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ros_industrial_cmake_boilerplate:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp_eigen:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/osqp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/opw_kinematics:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface_msgs:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/noether_tpp:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_hc10_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/motoman_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/ifopt:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/gl_depth_sim:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_lrmate200ic_support:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/fanuc_resources:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/descartes_light:/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/open3d_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning

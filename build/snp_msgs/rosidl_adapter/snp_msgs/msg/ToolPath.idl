@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from snp_msgs/msg/ToolPath.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+
+module snp_msgs {
+  module msg {
+    struct ToolPath {
+      @verbatim (language="comment", text=
+        " The tool path segments")
+      sequence<geometry_msgs::msg::PoseArray> segments;
+    };
+  };
+};

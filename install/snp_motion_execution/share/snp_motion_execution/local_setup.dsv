@@ -1,0 +1,2 @@
+source;share/snp_motion_execution/environment/ament_prefix_path.sh
+source;share/snp_motion_execution/environment/path.sh

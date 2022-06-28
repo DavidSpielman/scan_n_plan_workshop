@@ -1,0 +1,17 @@
+# Request
+
+# Tool Paths - the input tool paths that need to be planned on.  These follow Noether conventions.
+# i.e. ToolPaths is a raster pattern.  ToolPath is a single raster, which may be broken up into
+# discrete segments, each made of waypoints.
+snp_msgs/ToolPaths tool_paths
+
+# Params
+# [insert any relevant motion planning parameters here]
+string motion_group
+string tcp_frame
+
+# Mesh - this is the scanned mesh which toolpaths were generated on.  Any path generated should be
+# checked for collision against this mesh to ensure we don't hit it by mistake.
+string mesh_filename
+string mesh_frame
+

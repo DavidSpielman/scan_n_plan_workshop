@@ -1,0 +1,4 @@
+source;share/snp_motion_execution/local_setup.bash
+source;share/snp_motion_execution/local_setup.dsv
+source;share/snp_motion_execution/local_setup.sh
+source;share/snp_motion_execution/local_setup.zsh

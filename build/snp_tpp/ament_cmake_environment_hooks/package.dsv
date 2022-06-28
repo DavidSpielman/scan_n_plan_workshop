@@ -1,0 +1,4 @@
+source;share/snp_tpp/local_setup.bash
+source;share/snp_tpp/local_setup.dsv
+source;share/snp_tpp/local_setup.sh
+source;share/snp_tpp/local_setup.zsh

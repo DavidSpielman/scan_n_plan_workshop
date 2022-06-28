@@ -78,7 +78,29 @@
   </joint>
 
   <!-- Add End Effector Components -->
-  <!--<link name="ee">
+  <xacro:property name="ee_length" value="0.254"/> <!--10 in converted to m -->
+  <xacro:property name="ee_radius" value="0.035"/> <!--70mm is diameter of joint 6 from fanuc specs-->
+  <link name="ee">
+    <visual>
+<!--      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>-->
+      <geometry>
+        <cylinder length="${ee_length}" radius="${ee_radius}"/>
+      </geometry>
+    </visual>
+    <collision>
+<!--      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>-->
+      <geometry>
+        <cylinder length="${ee_length}" radius="${ee_radius}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="tool0_to_ee" type="fixed">
+    <parent link="tool0"/>
+    <child link="ee"/>
+  </joint>
+
+<!--<link name="ee">
     <visual>
       <geometry>
         <mesh filename="package://snp_support/meshes/visual/end_effector.stl"/>

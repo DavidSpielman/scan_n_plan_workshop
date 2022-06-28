@@ -1,0 +1,427 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found snp_msgs: 0.0.0 (/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_msgs/share/snp_msgs/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found tesseract_monitoring: 1.0.0 (/home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found libusb-1.0: /usr/include  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+CMake Warning (dev) at /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+Call Stack (most recent call first):
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_urdf/lib/cmake/tesseract_urdf/tesseract_urdf-config.cmake:29 (find_dependency)
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_environment/lib/cmake/tesseract_environment/tesseract_environment-config.cmake:29 (find_dependency)
+  /usr/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_visualization/lib/cmake/tesseract_visualization/tesseract_visualization-config.cmake:26 (find_dependency)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_rosutils/share/tesseract_rosutils/cmake/tesseract_rosutilsConfig.cmake:41 (include)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/D10.US.SWRI.ORG/dspielman/snp/snptools_ws/install/tesseract_monitoring/share/tesseract_monitoring/cmake/tesseract_monitoringConfig.cmake:41 (include)
+  CMakeLists.txt:20 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Taskflow found. Headers: /usr/include
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+-- Taskflow found. Headers: /usr/include
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found assimp: /usr/include  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found ompl: /usr/include;/usr/include/eigen3  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: program_options 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0")  
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Found Boost: /usr/include (found version "1.71.0") found components: graph 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem serialization 
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+-- Looking for cheev_
+-- Looking for cheev_ - not found
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_motion_planning
+[35m[1mScanning dependencies of target snp_motion_planning_plugins[0m
+[35m[1mScanning dependencies of target snp_motion_planning_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/snp_motion_planning_plugins.dir/src/motoman_hc10_ikfast_plugin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/snp_motion_planning_node.dir/src/planning_server.cpp.o[0m
+In file included from [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_plugin.cpp:25[m[K:
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_solver.hpp:32:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[K__dummy[m[K’ [[01;35m[K-Wpedantic[m[K]
+   31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[[01;35m[K(int)x][m[K
+      |                                                     [01;35m[K~~~~~~~[m[K
+   32 | [01;35m[KIKFAST_COMPILE_ASSERT(IKFAST_VERSION == 0x1000004a[m[K);
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/motoman_hc10_ikfast_solver.hpp:31:58:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KIKFAST_COMPILE_ASSERT[m[K’
+   31 | #define IKFAST_COMPILE_ASSERT(x) extern int __dummy[(int)[01;36m[Kx[m[K]
+      |                                                          [01;36m[K^[m[K
+In file included from [01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planning_server.cpp:1[m[K:
+/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planner_profiles.hpp: In instantiation of ‘[01m[Ktypename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr createDescartesPlanProfile() [with FloatType = float; typename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr = std::shared_ptr<tesseract_planning::DescartesDefaultPlanProfile<float> >][m[K’:
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planning_server.cpp:138:115:[m[K   required from here
+[01m[K/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_motion_planning/src/planner_profiles.hpp:23:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprob[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   23 |   profile->edge_evaluator = []([01;35m[Kconst tesseract_planning::DescartesProblem<FloatType>& prob[m[K) ->
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[ 75%] [32m[1mLinking CXX shared library libsnp_motion_planning_plugins.so[0m
+[ 75%] Built target snp_motion_planning_plugins
+[100%] [32m[1mLinking CXX executable snp_motion_planning_node[0m
+[100%] Built target snp_motion_planning_node
+-- Install configuration: ""
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/snp_motion_planning/snp_motion_planning_node
+-- Set runtime path of "/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/snp_motion_planning/snp_motion_planning_node" to ""
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/libsnp_motion_planning_plugins.so
+-- Set runtime path of "/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/lib/libsnp_motion_planning_plugins.so" to ""
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/library_path.sh
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/library_path.dsv
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/ament_index/resource_index/package_run_dependencies/snp_motion_planning
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/ament_index/resource_index/parent_prefix_path/snp_motion_planning
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/ament_prefix_path.sh
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/ament_prefix_path.dsv
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/path.sh
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/environment/path.dsv
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.bash
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.sh
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.zsh
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/local_setup.dsv
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/package.dsv
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/ament_index/resource_index/packages/snp_motion_planning
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planning-targetsExport-noconfig.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planningConfig.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/cmake/snp_motion_planningConfig-version.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning/package.xml
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning//launch
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_motion_planning/share/snp_motion_planning//launch/planning_server.launch.xml

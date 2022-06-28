@@ -1,0 +1,56 @@
+-- clang-tidy found: /usr/bin/clang-tidy-10
+-- include-what-you-use found: /usr/bin/include-what-you-use
+-- cppcheck found: /usr/bin/cppcheck
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found package config template: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/snp_support/cmake/snp_support-config.cmake.in
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_support
+-- Install configuration: ""
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support/package.xml
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/lib/cmake/snp_support/snp_support-config.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/lib/cmake/snp_support/snp_support-config-version.cmake
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/ament_index/resource_index/packages/snp_support
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support/hook/ament_prefix_path.dsv
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support/hook/ros_package_path.dsv
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//config
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//config/workcell_plugins.yaml
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//config/scan_traj.yaml
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//config/camera_calibration.yaml
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//config/rviz_base_config.rviz
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//config/workcell.srdf
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//launch
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//launch/test.launch.xml
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//urdf
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//urdf/workcell.xacro
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/phone_ch.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/phone_ch_scaled.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/simple_phone_mm.PLY
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/part_scan.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/simple_phone_m.STL
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/visual
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/visual/steel_table.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/visual/end_effector.stl
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/backplate.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/camera2.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/steel_table.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/bracket1.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/front.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/afd310.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/camera1.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/bracket2.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/collision/rps100.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/simple_phone_m.PLY
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/simple_phone_mm.STL
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/simple_phone_m_z_translation.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/origin_translation_test.mlp
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/simple_phone.ply
+-- Installing: /home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/install/snp_support/share/snp_support//meshes/simple_phone_m.ply

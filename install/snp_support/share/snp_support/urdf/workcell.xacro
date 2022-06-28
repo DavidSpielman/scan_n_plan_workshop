@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<robot name="snp_workcell" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find fanuc_lrmate200ic_support)/urdf/lrmate200ic_macro.xacro" />
+  <xacro:fanuc_lrmate200ic prefix=""/>
+
+  <xacro:property name="dt_flange_width" value="0.040"/>
+
+  <!-- Add World -->
+  <material name="light_gray">
+    <color rgba="0.7 0.7 0.7 1"/>
+  </material>
+
+  <material name="dark_gray">
+    <color rgba="0.3 0.3 0.3 1"/>
+  </material>
+
+  <link name="world"/>
+
+  <!-- Add Floor -->
+  <xacro:property name="length" value="1.1176"/>
+  <xacro:property name="width" value="1.4732"/>
+  <link name="floor">
+    <visual>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
+      <geometry>
+        <box size="${length} ${width} 0.001"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
+      <geometry>
+        <box size="${length} ${width} 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="world_to_floor" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="floor"/>
+  </joint>
+
+  <!-- Add ceiling -->
+  <xacro:property name="length" value="1.1176"/>
+  <xacro:property name="width" value="1.4732"/>
+  <link name="ceiling">
+    <visual>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
+      <geometry>
+        <box size="${length} ${width} 0.001"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>
+      <geometry>
+        <box size="${length} ${width} 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="floor_to_ceiling" type="fixed">
+    <parent link="floor"/>
+    <child link="ceiling"/>
+    <origin xyz="0 0 1.1049" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="ceiling_to_base" type="fixed">
+    <parent link="ceiling"/>
+    <child link="base_link"/>
+    <origin xyz="-0.37465 -0.1524 0" rpy="0 -3.14 -3.14"/>
+  </joint>
+
+  <!-- Create a frame representing the robot tool flange (behind the teach tool and nominal tool0 frame) for IKFast -->
+  <link name="tool_flange"/>
+  <joint name="tool0_to_tool_flange" type="fixed">
+    <parent link="tool0"/>
+    <child link="tool_flange"/>
+    <origin xyz="0.0 0.0 ${-dt_flange_width}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Add End Effector Components -->
+  <xacro:property name="ee_length" value="0.254"/> <!--10 in converted to m -->
+  <xacro:property name="ee_radius" value="0.035"/> <!--70mm is diameter of joint 6 from fanuc specs-->
+  <link name="ee">
+    <visual>
+<!--      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>-->
+      <geometry>
+        <cylinder length="${ee_length}" radius="${ee_radius}"/>
+      </geometry>
+    </visual>
+    <collision>
+<!--      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>-->
+      <geometry>
+        <cylinder length="${ee_length}" radius="${ee_radius}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint6_to_ee" type="fixed">
+    <parent link="joint_6"/>
+    <child link="ee"/>
+  </joint>
+
+<!--<link name="ee">
+    <visual>
+      <geometry>
+        <mesh filename="package://snp_support/meshes/visual/end_effector.stl"/>
+      </geometry>
+    </visual>
+    <collision name="compliance">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/afd310.ply"/>
+      </geometry>
+    </collision>
+    <collision name="spindle">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/rps100.ply"/>
+      </geometry>
+    </collision>
+    <collision name="backplate">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/backplate.ply"/>
+      </geometry>
+    </collision>
+    <collision name="frontplate">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/front.ply"/>
+      </geometry>
+    </collision>
+    <collision name="camera1">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/camera1.ply"/>
+      </geometry>
+    </collision>
+    <collision name="camera2">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/camera2.ply"/>
+      </geometry>
+    </collision>
+    <collision name="sidebracket1">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/bracket1.ply"/>
+      </geometry>
+    </collision>
+    <collision name="sidebracket2">
+      <geometry>
+        <mesh filename="package://snp_support/meshes/collision/bracket2.ply"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="tool0_to_ee" type="fixed">
+    <parent link="tool0"/>
+    <child link="ee"/>
+  </joint>-->
+
+  <xacro:property name="camera_cal" value="${load_yaml('$(find snp_support)/config/camera_calibration.yaml')}" />
+
+  <link name="camera_color_optical_frame"/>
+  <joint name="tool0_to_camera" type="fixed">
+    <parent link="tool0"/>
+    <child link="camera_color_optical_frame"/>
+    <origin xyz="${camera_cal['camera_mount_to_camera_pos']['x']} ${camera_cal['camera_mount_to_camera_pos']['y']} ${camera_cal['camera_mount_to_camera_pos']['z']}"
+            rpy="${camera_cal['camera_mount_to_camera_rpy']['x']} ${camera_cal['camera_mount_to_camera_rpy']['y']} ${camera_cal['camera_mount_to_camera_rpy']['z']}" />
+  </joint>
+
+  <link name="cal_target_frame"/>
+  <joint name="target_mount_to_target" type="fixed">
+    <parent link="base_link"/>
+    <child link="cal_target_frame"/>
+    <origin xyz="${camera_cal['target_mount_to_target_pos']['x']} ${camera_cal['target_mount_to_target_pos']['y']} ${camera_cal['target_mount_to_target_pos']['z']}"
+            rpy="${camera_cal['target_mount_to_target_rpy']['x']} ${camera_cal['target_mount_to_target_rpy']['y']} ${camera_cal['target_mount_to_target_rpy']['z']}" />
+  </joint>
+
+  <!-- Add TCP -->
+  <link name="sand_tcp"/>
+  <joint name="sand_tcp_joint" type="fixed">
+    <parent link="tool_flange"/>
+    <child link="sand_tcp"/>
+    <origin xyz="-0.26261 0 ${0.08259 + dt_flange_width}" rpy="${radians(-90)} 0 ${radians(90)}"/>
+  </joint>
+
+</robot>

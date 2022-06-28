@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from snp_msgs/msg/ToolPaths.msg
+// generated code does not contain a copyright notice
+
+#include "snp_msgs/msg/ToolPath.idl"
+
+module snp_msgs {
+  module msg {
+    struct ToolPaths {
+      @verbatim (language="comment", text=
+        " The tool paths, include surface or edge")
+      sequence<snp_msgs::msg::ToolPath> paths;
+    };
+  };
+};

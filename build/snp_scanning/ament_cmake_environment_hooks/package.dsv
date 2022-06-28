@@ -1,0 +1,4 @@
+source;share/snp_scanning/local_setup.bash
+source;share/snp_scanning/local_setup.dsv
+source;share/snp_scanning/local_setup.sh
+source;share/snp_scanning/local_setup.zsh

@@ -1,0 +1,8 @@
+source;share/snp_motion_execution/hook/cmake_prefix_path.ps1
+source;share/snp_motion_execution/hook/cmake_prefix_path.dsv
+source;share/snp_motion_execution/hook/cmake_prefix_path.sh
+source;share/snp_motion_execution/local_setup.bash
+source;share/snp_motion_execution/local_setup.dsv
+source;share/snp_motion_execution/local_setup.ps1
+source;share/snp_motion_execution/local_setup.sh
+source;share/snp_motion_execution/local_setup.zsh

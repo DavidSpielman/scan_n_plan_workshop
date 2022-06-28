@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from snp_msgs/srv/GenerateToolPaths.srv
+// generated code does not contain a copyright notice
+
+#include "snp_msgs/msg/ToolPaths.idl"
+
+module snp_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Request")
+    struct GenerateToolPaths_Request {
+      @verbatim (language="comment", text=
+        " Mesh - the input to the path planning algorithm" "\n"
+        " The surfaces on which to generate paths.")
+      string mesh_filename;
+
+      @verbatim (language="comment", text=
+        " Planning Parameters - configure the path planning - all in meters (m)" "\n"
+        " The desired space between path lines")
+      double line_spacing;
+
+      @verbatim (language="comment", text=
+        " Holes less than this size should be ignored")
+      double min_hole_size;
+
+      @verbatim (language="comment", text=
+        " How long a line needs to be to be included")
+      double min_segment_length;
+
+      @verbatim (language="comment", text=
+        " The desired space between cartesian waypoints")
+      double point_spacing;
+
+      @verbatim (language="comment", text=
+        " The radius used to compute normals")
+      double search_radius;
+    };
+    @verbatim (language="comment", text=
+      " Response")
+    struct GenerateToolPaths_Response {
+      @verbatim (language="comment", text=
+        " Whether the planning was successful")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " The resulting paths")
+      snp_msgs::msg::ToolPaths tool_paths;
+
+      @verbatim (language="comment", text=
+        " Information about planning operations")
+      string message;
+    };
+  };
+};
