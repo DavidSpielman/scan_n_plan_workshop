@@ -2,7 +2,7 @@
 <launch>
   <arg name="sim_vision" default="True"/>
   <arg name="sim_robot" default="True"/>
-  <arg name="mesh_file" default="$(find-pkg-share snp_support)/meshes/part_scan.ply"/>
+  <arg name="mesh_file" default="$(find-pkg-share snp_support)/meshes/simple_phone_m.ply"/>
   <arg name="scan_trajectory_file" default="$(find-pkg-share snp_support)/config/scan_traj.yaml"/>
   <arg name="verbose" default="False"/>
   <arg name="touch_links" default="[table, base_link, floor]"/>
