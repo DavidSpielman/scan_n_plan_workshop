@@ -82,13 +82,13 @@
   <xacro:property name="ee_radius" value="0.035"/> <!--70mm is diameter of joint 6 from fanuc specs-->
   <link name="ee">
     <visual>
-<!--      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>-->
+      <origin xyz="0 0 0.115" rpy="0 0 0"/>-->
       <geometry>
         <cylinder length="${ee_length}" radius="${ee_radius}"/>
       </geometry>
     </visual>
     <collision>
-<!--      <origin xyz="0 -${0/10} 0.001" rpy="0 0 0"/>-->
+    <origin xyz="0 0 0.115" rpy="0 0 0"/>-->
       <geometry>
         <cylinder length="${ee_length}" radius="${ee_radius}"/>
       </geometry>
@@ -174,9 +174,9 @@
   <!-- Add TCP -->
   <link name="sand_tcp"/>
   <joint name="sand_tcp_joint" type="fixed">
-    <parent link="tool_flange"/>
+    <parent link="ee"/>
     <child link="sand_tcp"/>
-    <origin xyz="-0.26261 0 ${0.08259 + dt_flange_width}" rpy="${radians(-90)} 0 ${radians(90)}"/>
+    <origin xyz="0 0 ${ee_length}" rpy="0 0 0"/>
   </joint>
 
 </robot>

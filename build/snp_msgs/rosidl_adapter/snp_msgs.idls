@@ -1,5 +1,0 @@
-/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_msgs/rosidl_adapter/snp_msgs:msg/ToolPath.idl
-/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_msgs/rosidl_adapter/snp_msgs:msg/ToolPaths.idl
-/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_msgs/rosidl_adapter/snp_msgs:srv/ExecuteMotionPlan.idl
-/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_msgs/rosidl_adapter/snp_msgs:srv/GenerateMotionPlan.idl
-/home/D10.US.SWRI.ORG/dspielman/snp/snp_ws/src/scan_n_plan_workshop/build/snp_msgs/rosidl_adapter/snp_msgs:srv/GenerateToolPaths.idl

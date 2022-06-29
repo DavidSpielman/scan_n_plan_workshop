@@ -1,8 +1,0 @@
-# Request
-
-# Motion Plan - the trajectory we wish the robot to follow
-trajectory_msgs/JointTrajectory motion_plan
-
-# Whether to activate the tool
-bool use_tool
-
