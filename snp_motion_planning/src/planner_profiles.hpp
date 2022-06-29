@@ -14,8 +14,8 @@ typename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr createD
   auto profile = std::make_shared<tesseract_planning::DescartesDefaultPlanProfile<FloatType>>();
   profile->num_threads = static_cast<int>(std::thread::hardware_concurrency());
   profile->use_redundant_joint_solutions = false;
-  profile->allow_collision = false;
-  profile->enable_collision = true;
+  profile->allow_collision = true;
+  profile->enable_collision = false;
   profile->enable_edge_collision = false;
 
   // Use the default state and edge evaluators
@@ -83,7 +83,7 @@ std::shared_ptr<tesseract_planning::TrajOptDefaultCompositeProfile> createTrajOp
   profile->acceleration_coeff = Eigen::VectorXd::Constant(6, 1, 10.0);
   profile->jerk_coeff = Eigen::VectorXd::Constant(6, 1, 20.0);
 
-  profile->collision_cost_config.enabled = true;
+  profile->collision_cost_config.enabled = false;
   profile->collision_cost_config.type = trajopt::CollisionEvaluatorType::DISCRETE_CONTINUOUS;
   profile->collision_cost_config.safety_margin = 0.010;
   profile->collision_cost_config.safety_margin_buffer = 0.010;

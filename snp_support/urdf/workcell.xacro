@@ -87,12 +87,12 @@
         <cylinder length="${ee_length}" radius="${ee_radius}"/>
       </geometry>
     </visual>
-    <collision>
-    <origin xyz="0 0 0.115" rpy="0 0 0"/>-->
+    <!--<collision>
+    <origin xyz="0 0 0.115" rpy="0 0 0"/>
       <geometry>
         <cylinder length="${ee_length}" radius="${ee_radius}"/>
       </geometry>
-    </collision>
+    </collision>-->
   </link>
 
   <joint name="tool0_to_ee" type="fixed">
@@ -172,11 +172,17 @@
   </joint>
 
   <!-- Add TCP -->
+  <link name="sand_tcp_1"/>
+  <joint name="sand_tcp_1_joint" type="fixed">
+    <parent link="ee"/>
+    <child link="sand_tcp_1"/>
+    <origin xyz="0 0 ${ee_length}" rpy="0 0 0"/>
+  </joint>
   <link name="sand_tcp"/>
   <joint name="sand_tcp_joint" type="fixed">
-    <parent link="ee"/>
+    <parent link="sand_tcp_1"/>
     <child link="sand_tcp"/>
-    <origin xyz="0 0 ${ee_length}" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="3.14 0 0"/>
   </joint>
 
 </robot>
