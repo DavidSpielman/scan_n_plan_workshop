@@ -14,8 +14,8 @@ typename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr createD
   auto profile = std::make_shared<tesseract_planning::DescartesDefaultPlanProfile<FloatType>>();
   profile->num_threads = static_cast<int>(std::thread::hardware_concurrency());
   profile->use_redundant_joint_solutions = false;
-  profile->allow_collision = true;
-  profile->enable_collision = false;
+  profile->allow_collision = false;
+  profile->enable_collision = true;
   profile->enable_edge_collision = false;
 
   // Use the default state and edge evaluators
@@ -40,7 +40,7 @@ typename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr createD
   profile->vertex_evaluator = nullptr;
 
   profile->target_pose_sampler =
-      std::bind(tesseract_planning::sampleToolZAxis, std::placeholders::_1, 10.0 * M_PI / 180.0);
+      std::bind(tesseract_planning::sampleToolZAxis, std::placeholders::_1, 30.0 * M_PI / 180.0);
 
   return profile;
 }

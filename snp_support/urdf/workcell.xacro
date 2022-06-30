@@ -172,17 +172,11 @@
   </joint>
 
   <!-- Add TCP -->
-  <link name="sand_tcp_1"/>
+  <link name="sand_tcp"/>
   <joint name="sand_tcp_1_joint" type="fixed">
     <parent link="ee"/>
-    <child link="sand_tcp_1"/>
-    <origin xyz="0 0 ${ee_length}" rpy="0 0 0"/>
-  </joint>
-  <link name="sand_tcp"/>
-  <joint name="sand_tcp_joint" type="fixed">
-    <parent link="sand_tcp_1"/>
     <child link="sand_tcp"/>
-    <origin xyz="0 0 0" rpy="3.14 0 0"/>
+    <origin xyz="0 0 ${ee_length}" rpy="0 0 0"/>
   </joint>
 
 </robot>
