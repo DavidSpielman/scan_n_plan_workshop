@@ -102,7 +102,7 @@ void TPPNode::callPlanner(const std::shared_ptr<snp_msgs::srv::GenerateToolPaths
   else
   {
     // Create a planner
-    auto dir_gen = std::make_unique<noether::PrincipalAxisDirectionGenerator>(M_PI / 2.0);
+    auto dir_gen = std::make_unique<noether::PrincipalAxisDirectionGenerator>(M_PI / 2.0); //M_PI / 2.0 inside parenthesis to make rasters go across phone 90degrees other way
         noether::PlaneSlicerRasterPlanner planner(std::move(dir_gen),
                                               std::make_unique<noether::FixedOriginGenerator>());
 

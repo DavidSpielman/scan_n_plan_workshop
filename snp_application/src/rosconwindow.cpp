@@ -504,7 +504,7 @@ void ROSConWindow::plan_tool_paths()
     request->line_spacing = 0.03;
     request->min_hole_size = 0.225;
     request->min_segment_length = 0.03;
-    request->point_spacing = 0.0075;
+    request->point_spacing = 0.01; //0.0075
     //request->min_segment_length = 0.25;
     //request->point_spacing = 0.05;
     request->search_radius = 0.05;
