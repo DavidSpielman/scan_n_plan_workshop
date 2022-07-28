@@ -171,7 +171,7 @@
   <joint name="ceiling_to_base" type="fixed">
     <parent link="ceiling"/>
     <child link="base_link"/>
-    <origin xyz="-${length/2-2*0.0508-0.1778} -0.169135 0" rpy="0 -3.14 -3.14"/>
+    <origin xyz="-${length/2-2*0.0508-0.1778} -0.169135 0" rpy="0 -3.14 1.5708"/>
   </joint>
 
   <!-- Create a frame representing the robot tool flange (behind the teach tool and nominal tool0 frame) for IKFast -->
@@ -187,16 +187,16 @@
   <xacro:property name="ee_radius" value="0.035"/> <!--70mm is diameter of joint 6 from fanuc specs-->
   <link name="ee">
     <visual>
-      <origin xyz="0 0 0.115" rpy="0 0 0"/>-->
+      <origin xyz="0 0 0" rpy="0 0 0"/>-->
       <geometry>
-        <cylinder length="${ee_length}" radius="${ee_radius}"/>
+        <mesh filename="package://snp_support/meshes/visual/end_effector_viz.ply"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision>
-      <origin xyz="0 0 0.115" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <cylinder length="${ee_length}" radius="${ee_radius}"/>
+        <mesh filename="package://snp_support/meshes/collision/end_effector_convhull.ply"/>
       </geometry>
     </collision>
   </link>
@@ -204,6 +204,7 @@
   <joint name="tool0_to_ee" type="fixed">
     <parent link="tool0"/>
     <child link="ee"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 1.5708"/>
   </joint>
 
 <!--<link name="ee">
@@ -280,7 +281,7 @@
   <!-- Add TCP -->
   <link name="sand_tcp"/>
   <joint name="sand_tcp_1_joint" type="fixed">
-    <parent link="ee"/>
+    <parent link="tool0"/>
     <child link="sand_tcp"/>
     <origin xyz="0 0 ${ee_length}" rpy="0 0 0"/>
   </joint>
