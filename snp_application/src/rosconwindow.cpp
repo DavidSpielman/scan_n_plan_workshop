@@ -501,7 +501,7 @@ void ROSConWindow::plan_tool_paths()
     auto request = std::make_shared<snp_msgs::srv::GenerateToolPaths::Request>();
     request->mesh_filename = mesh_file_;
     //request->line_spacing = 0.0508;
-    request->line_spacing = 0.03;
+    request->line_spacing = 0.01;
     request->min_hole_size = 0.225;
     request->min_segment_length = 0.03;
     request->point_spacing = 0.01; //0.0075
