@@ -10,10 +10,10 @@ target_mount_to_target_rpy:
   y: -3.14018
   z: 1.5801
 camera_mount_to_camera_pos:
-  x: -0.144569
-  y: -0.16574
-  z: 0.0967931
+  x: 0.0486011
+  y: 0.142023
+  z: 0.141383
 camera_mount_to_camera_rpy:
-  x: -1.15849
-  y: -1.59259
-  z: 1.18146
+  x: 0.0246376
+  y: 0.0326629
+  z: 2.99265

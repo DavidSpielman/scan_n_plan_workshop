@@ -204,7 +204,7 @@
   <joint name="tool0_to_ee" type="fixed">
     <parent link="tool0"/>
     <child link="ee"/>
-    <origin xyz="0 0 0" rpy="-1.5708 0 1.5708"/>
+    <origin xyz="0 0 0" rpy="1.5708 3.14 1.5708"/>
   </joint>
 
 <!--<link name="ee">
@@ -250,7 +250,7 @@
     </collision>
     <collision name="sidebracket2">
       <geometry>
-        <mesh filename="package://snp_support/meshes/collision/bracket2.ply"/>
+        <mesh filename="package://snpsupport/meshes/collision/bracket2.ply"/>
       </geometry>
     </collision>
   </link>
@@ -260,7 +260,7 @@
     <child link="ee"/>
   </joint>-->
 
- <!-- <xacro:property name="camera_cal" value="${load_yaml('$(find snp_support)/config/camera_calibration.yaml')}" />
+ <xacro:property name="camera_cal" value="${load_yaml('$(find snp_support)/config/camera_calibration.yaml')}" />
 
   <link name="camera_color_optical_frame"/>
   <joint name="tool0_to_camera" type="fixed">
@@ -270,7 +270,7 @@
             rpy="${camera_cal['camera_mount_to_camera_rpy']['x']} ${camera_cal['camera_mount_to_camera_rpy']['y']} ${camera_cal['camera_mount_to_camera_rpy']['z']}" />
   </joint>
 
-  <link name="cal_target_frame"/>
+  <!-- <link name="cal_target_frame"/>
   <joint name="target_mount_to_target" type="fixed">
     <parent link="base_link"/>
     <child link="cal_target_frame"/>
