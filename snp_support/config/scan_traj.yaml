@@ -1,25 +1,46 @@
 header: {stamp: {sec: 0, nanosec: 0}, frame_id: ""}
 joint_names: ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6']
 points:
-  - positions: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - positions: [-1.57, 0.0, 0.0, 0.0, 0.0, 3.019]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
       sec: 0
       nanosec: 0
-  - positions: [-0.707, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - positions: [-1.57, 0.447, 0.0, 0.0, 0.314, 3.019]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
-      sec: 9
+      sec: 20
       nanosec: 0
-  - positions: [-1.57, 0.0, 0.0, 0.0, 0.0, 0.0]
+  - positions: [-1.57, 0.894, 0.0, 0.0, 0.628, 3.019]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
-      sec: 15
+      sec: 40
+      nanosec: 0
+  - positions: [-1.57, 1.34, 0.0, 0.0, 0.942, 3.019]
+    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    time_from_start:
+      sec: 60
+      nanosec: 0
+  - positions: [-1.57, 1.787, 0.0, 0.0, 1.257, 3.019]
+    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    time_from_start:
+      sec: 80
+      nanosec: 0
+  - positions: [-1.57, 2.234, 0.0, 0.0, 1.57, 3.019]
+    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    time_from_start:
+      sec: 100
       nanosec: 0
 
