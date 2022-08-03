@@ -48,27 +48,76 @@ points:
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
+      sec: 5
+      nanosec: 0
+  - positions: [-1.771, 1.864, 2.114, 0.009, 1.654, 2.827]
+    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    time_from_start:
+      sec: 10
+      nanosec: 0
+  - positions: [-1.953, 1.800, 1.988, -0.0507, 1.713, 2.647]
+    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    time_from_start:
+      sec: 15
+      nanosec: 0
+  - positions: [-1.205, 1.552, 1.552, 0.122, 1.867, 3.388]
+    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    time_from_start:
       sec: 20
       nanosec: 0
-  - positions: [-1.57, 1.916, 2.208, 0.0765, 1.595, 3.019]
+  - positions: [-1.602, 1.552, 1.552, 0.122, 1.867, 3.388]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
-      sec: 40
+      sec: 25
       nanosec: 0
-  - positions: [-1.57, 1.916, 2.208, -0.0782, 1.595, 3.019]
-    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    time_from_start:
-      sec: 60
-      nanosec: 0
-  - positions: [-1.57, 1.916, 2.208, -0.233, 1.595, 3.019]
-    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    time_from_start:
-      sec: 80
-      nanosec: 0
+#  - positions: [-1.936, 1.552, 1.552, 0.118, 1.926, 3.388]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 30
+#      nanosec: 0
+#  - positions: [-1.7, 1.552, 1.552, 0.118, 1.926, 3.388]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 40
+#      nanosec: 0
+#  - positions: [-1.753, 1.7, 1.8, 0, 1.750, 3.019]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 50
+#      nanosec: 0
+#  - positions: [-1.57, 1.916, 2.208, 0.0765, 1.595, 3.019]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 5
+#      nanosec: 0
+#  - positions: [-1.57, 1.916, 2.208, -0.0782, 1.595, 3.019]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 5
+#      nanosec: 0
+#  - positions: [-1.57, 1.916, 2.208, -0.233, 1.595, 3.019]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 5
+#      nanosec: 0
 
