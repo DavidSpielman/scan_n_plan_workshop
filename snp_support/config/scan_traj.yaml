@@ -1,6 +1,7 @@
 header: {stamp: {sec: 0, nanosec: 0}, frame_id: ""}
 joint_names: ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6']
 points:
+# Seems like the code looks at the time from start from the last point, multiplies it by 1.5 to see if the motion is able to execute
 #  - positions: [-1.57, 0.0, 0.0, 0.0, 0.0, 3.019]
 #    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 #    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -50,20 +51,23 @@ points:
     time_from_start:
       sec: 5
       nanosec: 0
-  - positions: [-1.771, 1.864, 2.114, 0.009, 1.654, 2.827]
-    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    time_from_start:
-      sec: 10
-      nanosec: 0
-  - positions: [-1.953, 1.800, 1.988, -0.0507, 1.713, 2.647]
-    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    time_from_start:
-      sec: 15
-      nanosec: 0
+# Points below this point when uncommented will work sequentially
+#  - positions: [-1.771, 1.864, 2.114, 0.009, 1.654, 2.827]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 10
+#      nanosec: 0
+#  - positions: [-1.953, 1.800, 1.988, -0.0507, 1.713, 2.647]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 20
+#      nanosec: 0
+#
+# The last point that can be run that is able to return to the home position. The points below this are unable to return back to the starting position.
   - positions: [-1.205, 1.552, 1.552, 0.122, 1.867, 3.388]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -71,23 +75,30 @@ points:
     time_from_start:
       sec: 30
       nanosec: 0
-  - positions: [-1.023, 2.272, 3.135, -0.0109, 0.684, 3.541]
-    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    time_from_start:
-      sec: 45
-      nanosec: 0
-  - positions: [-0.971, 2.230, 3.065, -0.374, 0.968, 3.885]
-    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    time_from_start:
-      sec: 55
-      nanosec: 0
-
-
-# Left side traj
+#  - positions: [-1.023, 2.272, 3.135, -0.0109, 0.684, 3.541]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 45
+#      nanosec: 0
+#  - positions: [-0.971, 2.230, 3.065, -0.374, 0.968, 3.885]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 55
+#      nanosec: 0
+#  - positions: [-1.023, 2.272, 3.135, -0.0109, 0.684, 3.541]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 65
+#      nanosec: 0
+#
+#
+# Left side traj: If everything but points ([-1.57, 1.916, 2.234, 0.0765, 1.595, 3.019] and [-1.205, 1.552, 1.552, 0.122, 1.867, 3.388]) are commented out, the points below here are able to be reached individually (twhen other points in the group are commented out) but not sequentially. They are not able to return to home.
 #  - positions: [-1.105, 2.284, 3.204, -0.442, 0.863, 3.841]
 #    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 #    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
