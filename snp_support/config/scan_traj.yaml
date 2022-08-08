@@ -37,6 +37,7 @@ points:
 #    time_from_start:
 #      sec: 80
 #      nanosec: 0
+# Simle 4 point square shape
   - positions: [-1.57, 2.234, 2.234, 0.0, 1.57, 3.019]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -44,13 +45,27 @@ points:
     time_from_start:
       sec: 0
       nanosec: 0
-  - positions: [-1.57, 1.916, 2.234, 0.0765, 1.595, 3.019]
+  - positions: [-2.174, 1.916, 2.234, 0.0765, 1.595, 3.019]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
       sec: 5
       nanosec: 0
+#  - positions: [-1.8, 1.916, 2.234, 0.0765, 1.595, 3.019]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 10
+#      nanosec: 0
+#  - positions: [-1.57, 1.916, 2.234, 0.0765, 1.595, 3.019]
+#    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#    time_from_start:
+#      sec: 20
+#      nanosec: 0
 # Points below this point when uncommented will work sequentially
 #  - positions: [-1.771, 1.864, 2.114, 0.009, 1.654, 2.827]
 #    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -73,7 +88,7 @@ points:
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
-      sec: 30
+      sec: 40
       nanosec: 0
 #  - positions: [-1.023, 2.272, 3.135, -0.0109, 0.684, 3.541]
 #    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
