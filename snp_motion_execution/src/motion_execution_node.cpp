@@ -166,7 +166,8 @@ private:
         case rclcpp_action::ResultCode::SUCCEEDED:
           break;
         default:
-          throw std::runtime_error("Follow joint trajectory action call did not succeed");
+          throw std::runtime_error(
+              "Follow joint trajectory action call did not succeed: " + fjt_wrapper.result->error_string + "'");
       }
 
       // Handle the FJT error code

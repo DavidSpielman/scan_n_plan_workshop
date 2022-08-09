@@ -318,7 +318,7 @@ void ROSConWindow::onScanApproachDone(FJTResult result)
 
   start_request->tsdf_params.min_box_values.x = -0.33;
   start_request->tsdf_params.min_box_values.y = -0.36;
-  start_request->tsdf_params.min_box_values.z = 0.0175;
+  start_request->tsdf_params.min_box_values.z = 0.02;
   start_request->tsdf_params.max_box_values.x = 0.25;
   start_request->tsdf_params.max_box_values.y = 0.36;
   start_request->tsdf_params.max_box_values.z = 0.12;

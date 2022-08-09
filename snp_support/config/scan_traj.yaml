@@ -50,7 +50,7 @@ points:
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
-      sec: 5
+      sec: 10
       nanosec: 0
 #  - positions: [-1.8, 1.916, 2.234, 0.0765, 1.595, 3.019]
 #    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -82,14 +82,23 @@ points:
 #      sec: 20
 #      nanosec: 0
 #
-# The last point that can be run that is able to return to the home position. The points below this are unable to return back to the starting position.
-  - positions: [-1.205, 1.552, 1.552, 0.122, 1.867, 3.388]
+# The last point that can be run that is able to return to the home position.
+  - positions: [-1.205, 1.552, 1.552, -0.325, 1.936, 3.388]
     velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     time_from_start:
-      sec: 40
+      sec: 50
       nanosec: 0
+# Back point
+  - positions: [-1.420, 2.096, 3.156, -0.029, 0.299, 1.533]
+    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    time_from_start:
+      sec: 80
+      nanosec: 0
+# The points below this are unable to return back to the starting position.
 #  - positions: [-1.023, 2.272, 3.135, -0.0109, 0.684, 3.541]
 #    velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 #    accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
