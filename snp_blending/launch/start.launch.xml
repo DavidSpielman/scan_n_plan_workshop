@@ -2,7 +2,7 @@
 <launch>
   <arg name="sim_vision" default="True"/>
   <arg name="sim_robot" default="True"/>
-  <arg name="mesh_file" default="$(find-pkg-share snp_blending)/meshes/grinding_plate.ply"/>
+  <arg name="mesh_file" default="$(find-pkg-share snp_blending)/meshes/grinding_plate_2_5_long.ply"/>
   <arg name="scan_trajectory_file" default="$(find-pkg-share snp_blending)/config/scan_traj.yaml"/>
   <arg name="verbose" default="True"/>
   <arg name="touch_links" default="[table, base_link, floor]"/>
@@ -57,7 +57,9 @@
   </group>
 
   <!-- Launch Toolpath Planning Node -->
-  <node pkg="snp_tpp" exec="snp_tpp_app"/>
+  <node pkg="snp_tpp" exec="snp_tpp_app">
+    <param name="config_file" value="$(find-pkg-share snp_blending)/config/tpp.yaml"/>
+  </node>
 
   <!-- Launch Motion Planning Node -->
   <include file="$(find-pkg-share snp_motion_planning)/launch/planning_server.launch.xml">
