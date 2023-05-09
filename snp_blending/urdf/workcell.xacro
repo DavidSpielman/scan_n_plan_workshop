@@ -288,14 +288,14 @@
   <joint name="floor_to_table" type="fixed">
     <parent link="floor"/>
     <child link="table"/>
-    <origin xyz="${table_cal['platform_to_pushcorp_base_pos']['x'] + table_width/2 - table_correction} ${table_cal['platform_to_pushcorp_base_pos']['y'] + table_length/2 - table_correction} ${table_cal['platform_to_pushcorp_base_pos']['z'] - table_height/2 - platform_height + table_correction}"
+    <origin xyz="${table_cal['platform_to_pushcorp_base_pos']['x'] + table_width/2 - table_correction} ${table_cal['platform_to_pushcorp_base_pos']['y'] + table_length/2 - table_correction + 0.25} ${table_cal['platform_to_pushcorp_base_pos']['z'] - table_height/2 - platform_height + table_correction}"
             rpy="0 0 0" />
   </joint>
 
   <joint name="platform_to_pushcorp_base" type="fixed">
     <parent link="platform"/>
     <child link="table_temp_link"/>
-    <origin xyz="${table_cal['platform_to_pushcorp_base_pos']['x'] + table_width/2 - table_correction} ${table_cal['platform_to_pushcorp_base_pos']['y'] + table_length/2 - table_correction} ${table_cal['platform_to_pushcorp_base_pos']['z'] - table_height/2 - platform_height + table_correction}"
+    <origin xyz="${table_cal['platform_to_pushcorp_base_pos']['x'] + table_width/2 - table_correction} ${table_cal['platform_to_pushcorp_base_pos']['y'] + table_length/2 - table_correction + 0.25} ${table_cal['platform_to_pushcorp_base_pos']['z'] - table_height/2 - platform_height + table_correction}"
             rpy="0 0 0" />
   </joint>
 
