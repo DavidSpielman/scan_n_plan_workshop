@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<robot name="model">
+    <link name="base_link">
+        <visual name="GP225_SP210.0 (Meshed)1">
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/base_link_visual_0.stl"/>
+            </geometry>
+        </visual>
+
+    </link>
+    <link name="link_1">
+        <visual name="GP225_SP210.1 (Meshed)1">
+            <origin xyz="0 0 -0.3"/>
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/link_1_visual_0.stl"/>
+            </geometry>
+        </visual>
+        <collision name="ConvexHull004">
+            <origin xyz="0 0 -0.3"/>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/collision_filtered/link_1_ConvexHull004.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="link_2">
+        <visual name="Fusion (Meshed)1">
+            <origin xyz="-0.325 0 -0.65"/>
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/link_2_visual_0.stl"/>
+            </geometry>
+        </visual>
+        <collision name="ConvexHull002">
+            <origin xyz="-0.325 0 -0.65"/>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/collision_filtered/link_2_ConvexHull002.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="link_3">
+        <visual name="GP225_SP210.5 (Meshed)1">
+            <origin xyz="-0.325 0 -1.8"/>
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/link_3_visual_0.stl"/>
+            </geometry>
+        </visual>
+        <collision name="ConvexHull005">
+            <origin xyz="-0.325 0 -1.8"/>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/collision_filtered/link_3_ConvexHull005.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="link_4">
+        <visual name="GP225_SP210.6 (Meshed)1">
+            <origin xyz="-1.325 0 -2.1"/>
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/link_4_visual_0.stl"/>
+            </geometry>
+        </visual>
+        <collision name="ConvexHull006">
+            <origin xyz="-1.325 0 -2.1"/>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/collision_filtered/link_4_ConvexHull006.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="link_5">
+        <visual name="GP225_SP210.7 (Meshed)1">
+            <origin xyz="-1.548 0 -2.1"/>
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/link_5_visual_0.stl"/>
+            </geometry>
+        </visual>
+        <visual name="GP225_SP210.7 (Meshed)2">
+            <origin xyz="-1.548 0 -2.1"/>
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/link_5_visual_0.stl"/>
+            </geometry>
+        </visual>
+        <collision name="ConvexHull007">
+            <origin xyz="-1.548 0 -2.1"/>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/collision_filtered/link_5_ConvexHull007.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <link name="link_6">
+        <visual name="GP225_SP210.8 (Meshed)">
+            <origin xyz="-1.798 0 -2.1"/>
+            <material name="">
+                <color rgba="0.8 0.8 0.8 1"/>
+            </material>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/visual_filtered/link_6_visual.stl"/>
+            </geometry>
+        </visual>
+        <collision name="ConvexHull008">
+            <origin xyz="-1.798 0 -2.1"/>
+            <geometry>
+                <mesh filename="package://snp_blending/urdf/gp225/collision_filtered/link_6_ConvexHull008.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <joint name="joint_link_1" type="revolute">
+        <origin xyz="0 0 0.3"/>
+        <parent link="base_link"/>
+        <child link="link_1"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-3.14" upper="3.14" effort="0" velocity="0"/>
+    </joint>
+    <joint name="joint_link_2" type="revolute">
+        <origin xyz="0.325 0 0.35"/>
+        <parent link="link_1"/>
+        <child link="link_2"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.05" upper="1.33" effort="0" velocity="0"/>
+    </joint>
+    <joint name="joint_link_3" type="revolute">
+        <origin xyz="0 0 1.15"/>
+        <parent link="link_2"/>
+        <child link="link_3"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.5" upper="1.57" effort="0" velocity="0"/>
+    </joint>
+    <joint name="joint_link_4" type="revolute">
+        <origin xyz="1 0 0.3"/>
+        <parent link="link_3"/>
+        <child link="link_4"/>
+        <axis xyz="1 0 0"/>
+        <limit lower="-6.28" upper="6.28" effort="0" velocity="0"/>
+    </joint>
+    <joint name="joint_link_5" type="revolute">
+        <origin xyz="0.223 0 0"/>
+        <parent link="link_4"/>
+        <child link="link_5"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-2.18" upper="2.18" effort="0" velocity="0"/>
+    </joint>
+    <joint name="joint_link_6" type="revolute">
+        <origin xyz="0.25 0 0"/>
+        <parent link="link_5"/>
+        <child link="link_6"/>
+        <axis xyz="1 0 0"/>
+        <limit lower="-6.28" upper="6.28" effort="0" velocity="0"/>
+    </joint>
+</robot>
