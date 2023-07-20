@@ -13,7 +13,7 @@
   <arg name="reference_frame" default="table"/>
   <!-- Set the default name of the follow joint trajectory action depending on whether the robot is simulated (i.e., ros2_control) or real hardware is being used -->
   <arg name="follow_joint_trajectory_action" default="joint_trajectory_position_controller/follow_joint_trajectory" if="$(var sim_robot)"/>
-  <arg name="follow_joint_trajectory_action" default="joint_trajectory_action" unless="$(var sim_robot)"/>
+  <arg name="follow_joint_trajectory_action" default="follow_joint_trajectory" unless="$(var sim_robot)"/>
 
   <!-- URDF, Rviz -->
   <include file="$(find-pkg-share snp_blending)/launch/test.launch.xml">
@@ -39,7 +39,7 @@
     <param name="tsdf.max.x" value="0.9144"/>
     <param name="tsdf.max.y" value="1.524"/>
     <param name="tsdf.max.z" value="0.5"/>
-    <param name="tsdf.voxel_length" value="0.003"/>
+    <param name="tsdf.voxel_length" value="0.0030"/>
 <!--    <param name="tsdf.sdf_trunc" value="0.025"/>-->
   </node>
 
