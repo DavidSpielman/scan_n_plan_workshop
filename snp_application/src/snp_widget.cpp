@@ -283,6 +283,11 @@ void SNPWidget::reset_calibration()
 
 void SNPWidget::scan()
 {
+  auto wait_ok = motion_execution_client_->wait_for_service(std::chrono::seconds(1));
+  std::stringstream sss;
+  sss << "wait ok> " << wait_ok;
+  emit log(QString::fromStdString(sss.str()));
+
   if (!motion_execution_client_->service_is_ready())
   {
     emit log("Motion execution service is not available");

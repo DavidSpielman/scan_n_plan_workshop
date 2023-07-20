@@ -12,7 +12,7 @@ template <typename FloatType>
 typename tesseract_planning::DescartesDefaultPlanProfile<FloatType>::Ptr createDescartesPlanProfile()
 {
   auto profile = std::make_shared<tesseract_planning::DescartesDefaultPlanProfile<FloatType>>();
-  profile->num_threads = static_cast<int>(std::thread::hardware_concurrency());
+  profile->num_threads = 1;  // static_cast<int>(std::thread::hardware_concurrency());
   profile->use_redundant_joint_solutions = false;
   profile->allow_collision = false;
   profile->enable_collision = true;
