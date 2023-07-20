@@ -18,6 +18,9 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(snp_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(motoros2_interfaces REQUIRED)
+find_package(industrial_msgs REQUIRED)
+
 
 add_executable(${PROJECT_NAME}_node src/motion_execution_node.cpp)
 ament_target_dependencies(
@@ -27,7 +30,9 @@ ament_target_dependencies(
   rclcpp_action
   sensor_msgs
   snp_msgs
-  std_srvs)
+  std_srvs
+  motoros2_interfaces
+  industrial_msgs)
 
 add_executable(execution_simulator src/execution_simulator_node.cpp)
 ament_target_dependencies(
@@ -53,5 +58,7 @@ ament_export_dependencies(
   rclcpp_action
   snp_msgs
   std_srvs
-  sensor_msgs)
+  sensor_msgs
+  motoros2_interfaces
+  industrial_msgs)
 ament_package()
